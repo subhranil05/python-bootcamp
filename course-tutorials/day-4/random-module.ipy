@@ -1,0 +1,19 @@
+import random      # import random module
+import my_module   # import a diff module
+
+# Returns a random integer between a and b (both inclusive). This also raises a ValueError if a > b.
+random_integer = random.randint(1, 10)
+
+# Returns the next random floating point number between [0.0 to 1.0)
+random_float = random.random()
+
+# Returns a random floating point N such that a <= N <= b if a <= b and b <= N <= a if b < a.
+random_uniform = random.uniform(1, 5)
+
+print(random_integer)
+
+print(random_float)
+
+print(random_uniform)
+
+print(my_module.bond)
